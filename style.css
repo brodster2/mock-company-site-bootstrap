@@ -17,8 +17,9 @@ body {
 .navbar-inverse {
     border-radius: 0;
     border: none;
+    border-bottom: 1px solid #226F54;
     height: 70px;
-    background: #E0D9CF;
+    background: none;
     z-index: 9999;
 }
 
@@ -48,15 +49,15 @@ body {
 }
 
 .nav.navbar-nav li a {
-    color: white;
+    color: #DA2C38;
     font-size: 20px;
 }
 
 .nav.navbar-nav li a:hover {
-    color: white !important;
+    color: #DA2C38; !important;
     font-weight: bold;
-    border-bottom: 2px solid rgb(255, 92, 51);
-    background-color: rgba(153, 153, 153, 0.8) !important;
+    border-bottom: 2px solid #226F54;
+    background-color: none !important;
 }
 
 /*Setting background of collapsed navbar*/
@@ -80,7 +81,7 @@ body {
 /*Styling Jumbotron*/
 .jumbotron {
     background: none;
-    color: white;
+    color: #226F54;
     text-align: center;
 }
 
@@ -91,7 +92,6 @@ body {
 .jumbotron .col-md-4 {
     height: 350px;
     padding-top: 20px;
-    background-color: rgba(153, 153, 153, 0.4);
 }
 
 .jumbotron .col-md-4 img {
