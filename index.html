@@ -37,7 +37,7 @@
             <!--Dropdown/nav headings-->
             <div class="collapse navbar-collapse navbar-right" id="navbarContent">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
+                    <li class="current-page"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
@@ -48,33 +48,31 @@
     <!--Jumbotron-->
     <div class="container-fluid">
         <div class="jumbotron">
-            <div class="row">
-                <h1>Need an awsome unique website?</h1>
+            <h1>Need a unique website?</h1>
+        </div>
+    </div>
+    <div class="container-fluid" id="main-content">
+        <div class="row">
+            <div class="col-md-4 info-wrapper">
+                <img src="images/green-money.png" class="info-image">
+                <h2>Price it</h2>
+                <p class="lead">Get in touch for an immediate no obligation quote.</p>
             </div>
-            <div id="main-content">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="images/green-money.png">
-                        <h2>Price it</h2>
-                        <p>Get in touch for an immediate no obligation quote.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/green-calendar.png" >
-                        <h2>Plan it</h2>
-                        <p>We will agree to a deadline and stick to it.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/green-clipboard.png">
-                        <h2>Make it</h2>
-                        <p>We will deliver your website on time and with the best quality.</p>
-                    </div>
-                </div>
+            <div class="col-md-4 info-wrapper">
+                <img src="images/green-calendar.png" class="info-image">
+                <h2>Plan it</h2>
+                <p class="lead">We will agree to a deadline and stick to it.</p>
             </div>
-            <div>
-                <button class="btn btn-default btn-lg">Get in touch</button>
+            <div class="col-md-4 info-wrapper">
+                <img src="images/green-clipboard.png" class="info-image">
+                <h2>Make it</h2>
+                <p class="lead">We will deliver your website on time and with the best quality.</p>
             </div>
         </div>
     </div>
+    <div class="container" id="button-wrapper">
+          <button class="btn btn-default btn-lg">Get a quote now</button>
+    </div>  
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
