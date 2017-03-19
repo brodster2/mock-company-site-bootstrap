@@ -1,0 +1,132 @@
+/*Add full height/width fixed background*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: url(images/pexels-photo-94295.jpeg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+/*Styling navbar*/
+.navbar-inverse {
+    border-radius: 0;
+    border: none;
+    height: 70px;
+    background: #E0D9CF;
+    z-index: 9999;
+}
+
+/*Positioning navbar content*/
+.navbar-inverse .container-fluid {
+    margin-top: 9px;
+    
+}
+
+/*Centering navbar brand image*/
+.navbar-brand img {
+    position: relative;
+    top: -10px;
+}
+
+/*Changing the appearance of the nav toggle button in collapsed mode*/
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle:focus {
+    background: rgba(153, 153, 153, 0.8) !important;
+}
+
+.navbar-toggle:hover {
+    background: rgb(255, 92, 51) !important;
+}
+
+.nav.navbar-nav li a {
+    color: white;
+    font-size: 20px;
+}
+
+.nav.navbar-nav li a:hover {
+    color: white !important;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(255, 92, 51);
+    background-color: rgba(153, 153, 153, 0.8) !important;
+}
+
+/*Setting background of collapsed navbar*/
+@media(max-width: 768px){
+    .navbar-collapse {
+        border-top: none;
+        margin-top: 10px;
+        background-color: rgba(153, 153, 153, 1);
+    }
+    
+    .jumbotron .col-md-4 {
+        position: relative;
+        top: 20px;
+    }
+    
+    .jumbotron .col-md-4 img {
+        height: 100px;
+    }
+}
+
+/*Styling Jumbotron*/
+.jumbotron {
+    background: none;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    margin-bottom: 50px;
+}
+
+.jumbotron .col-md-4 {
+    height: 350px;
+    padding-top: 20px;
+    background-color: rgba(153, 153, 153, 0.4);
+}
+
+.jumbotron .col-md-4 img {
+    margin-bottom: 20px;
+    height: 150px
+}
+
+.jumbotron .col-md-4 h2 {
+    margin-bottom: 25px;
+}
+
+.jumbotron button {
+    width: 200px;
+    color: white;
+    font-size: 25px;
+    background: rgb(255, 92, 51);
+    margin-top: 90px;
+    border: none;
+}
+
+.jumbotron button:hover {
+    color: white;
+    background: rgba(255, 92, 51, 0.8);
+    font-weight: bold;
+}
+
+footer {
+    background: rgba(153, 153, 153, 0.8);
+    color: white;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    padding-top: 10px;
+}
